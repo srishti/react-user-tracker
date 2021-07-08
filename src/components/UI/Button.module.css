@@ -1,0 +1,18 @@
+.button {
+  padding: 0.75rem 1rem;
+  background: peru;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    width: max-content;
+  }
+}

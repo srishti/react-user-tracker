@@ -1,0 +1,27 @@
+.card {
+  padding: 1.75rem 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+}

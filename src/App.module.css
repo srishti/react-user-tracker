@@ -1,0 +1,9 @@
+.app {
+  width: 70%;
+  height: 100%;
+  max-width: 40rem;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-rows: max-content max-content;
+  row-gap: 3rem;
+}
