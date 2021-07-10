@@ -11,9 +11,10 @@ const App = () => {
 
   const [users, setUsers] = useState([]);
 
-  const addUser = (userDetails) => {
+  const addUser = (name, age) => {
     const user = {
-      ...userDetails,
+      name,
+      age,
       id: Math.random().toString(),
     };
     setUsers((prevUsers) => [...prevUsers, user]);
